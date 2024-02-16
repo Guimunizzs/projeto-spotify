@@ -1,0 +1,72 @@
+/* Mídia Query para tablets e telas menores */
+@media screen and (max-width: 1115px) {
+  /* Adicione regras de estilo específicas para telas de tamanho médio */
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .header_search {
+    width: 280px;
+  }
+
+  .header_login .subscribe {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .header_login .login {
+    width: 65px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header_navigation {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    width: 250px;
+    height: 230px;
+  }
+
+  .offer__list-item img {
+    width: 150px;
+  }
+
+  .disclaimer-premium .text {
+    width: 70%;
+  }
+}
+
+@media (max-width: 780px) {
+  .sidebar {
+    width: 190px;
+  }
+
+  .main-container {
+    margin-left: 210px;
+    margin-right: 20px;
+  }
+
+  .playlist #greeting {
+    font-size: 26px;
+    margin-bottom: 34px;
+  }
+
+  .playlist .session {
+    font-size: 18px;
+  }
+
+  .cards {
+    width: 190px;
+    height: 170px;
+  }
+
+  .offer__list-item img {
+    width: 105px;
+  }
+}
